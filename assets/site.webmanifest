@@ -1,0 +1,22 @@
+{
+	"name": "Clock",
+	"short_name": "Clock",
+	"icons": [
+		{ "src": "/assets/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+		{
+			"src": "/assets/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{ "src": "/assets/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+	],
+	"theme_color": "#2f363e",
+	"background_color": "#2f363e",
+	"display": "standalone",
+	"orientation": "any",
+	"description": "This is a digital cum analog clock with modern and attractive styles. Keeps you updated with time and makes a great impression with the looks",
+	"scope": "/",
+	"start_url": "../",
+	"id": "/assets/"
+}

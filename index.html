@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme" content="#2f363e" />
+		<meta name="theme-color" content="#2f363e" />
+		<meta name="msapplication-navbutton-color" content="#2f363e" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta
+			name="description"
+			content="This is a digital cum analog clock with modern and attractive styles. Keeps you updated with time and makes a great impression with the looks"
+		/>
+		<meta name="robots" content="INDEX, FOLLOW" />
+		<meta
+			name="keyword"
+			content="time, clock, digital, analog, attractive, styles, styling, web-clock"
+		/>
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+		<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+		<link rel="manifest" href="./assets/site.webmanifest" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Clock</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="clock">
+				<!-- Clock hands -->
+				<div class="circle" style="--clr: #04fc43" id="sc"><i></i></div>
+				<div class="circle circle2" style="--clr: #fee800" id="mn"><i></i></div>
+				<div class="circle circle3" style="--clr: #ff2972" id="hr"><i></i></div>
+
+				<span style="--i: 1"><b>1</b></span>
+				<span style="--i: 2"><b>2</b></span>
+				<span style="--i: 3"><b>3</b></span>
+				<span style="--i: 4"><b>4</b></span>
+				<span style="--i: 5"><b>5</b></span>
+				<span style="--i: 6"><b>6</b></span>
+				<span style="--i: 7"><b>7</b></span>
+				<span style="--i: 8"><b>8</b></span>
+				<span style="--i: 9"><b>9</b></span>
+				<span style="--i: 10"><b>10</b></span>
+				<span style="--i: 11"><b>11</b></span>
+				<span style="--i: 12"><b>12</b></span>
+			</div>
+
+			<!-- Digital clock -->
+			<div id="time">
+				<div id="hours" style="--clr: #ff2972">00</div>
+				<div id="minutes" style="--clr: #fee800">00</div>
+				<div id="seconds" style="--clr: #04fc43">00</div>
+				<div id="ampm">AM</div>
+			</div>
+		</div>
+	</body>
+	<script src="./scripts/serviceWorker.js"></script>
+	<script src="./scripts/script.js"></script>
+</html>
